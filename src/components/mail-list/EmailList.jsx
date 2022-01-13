@@ -51,7 +51,7 @@ const EmailList = ({typelist}) => {
                     icon='inbox'
                     title='Primary'
                     color='red'
-                    selected={false}
+                    selected={true}
                 />
                 <Section
                     icon='people_alt'
@@ -63,7 +63,7 @@ const EmailList = ({typelist}) => {
                     icon='sell'
                     title='Promotions'
                     color='green'
-                    selected={true}
+                    selected={false}
                 />
             </Sections>
 
